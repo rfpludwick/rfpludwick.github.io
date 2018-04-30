@@ -1,0 +1,5 @@
+.idea/*
+_site/*
+vendor/*
+.sass-cache/*
+Gemfile.lock

@@ -1,1 +1,9 @@
+title: Robert F.P. Ludwick
+email: rfpludwick@gmail.com
+description: >-
+  Welcome to my (sub)domain.
+url: "https://rfpludwick.github.io"
+github_username: rfpludwick
+markdown: kramdown
 theme: jekyll-theme-leap-day
+timezone: America/Los_Angeles
