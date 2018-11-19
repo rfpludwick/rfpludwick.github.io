@@ -62,6 +62,15 @@ and we ended up open-sourcing it.
 - Packagist is at 
 [https://packagist.org/packages/rfpludwick/phpcs-teamcity-report](https://packagist.org/packages/rfpludwick/phpcs-teamcity-report)
 
+## Leadership
+
+I've started a repository to house some of my career leadership and management items. Right now, all I've got is a manager README. Curious as to what a manager README is? You can always go read mine.
+
+- Repository is at
+[https://github.com/rfpludwick/leadership](https://github.com/rfpludwick/leadership)
+- Manager README is at
+[https://github.com/rfpludwick/leadership/blob/master/manager-README.md](https://github.com/rfpludwick/leadership/blob/master/manager-README.md)
+
 ### Navigation
 
 - [Homepage](/)
