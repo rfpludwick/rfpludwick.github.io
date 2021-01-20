@@ -3,7 +3,7 @@
 
 # About
 
-**rfpludwick.github.io** is my personal GitHub Pages site. It's nothing spectacular, really.
+**rfpludwick.github.io** is my personal GitHub Pages site. It's nothing spectacular, really. Seriously.
 
 # Usage
 
