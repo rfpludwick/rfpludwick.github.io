@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"options": {
+        "env": {
+            "PATH": "${env:HOME}/gems/bin:${env:PATH}:${env:HOME}/.local/bin"
+        }
+    },
+	"tasks": [
+		{
+			"label": "Jekyll serve",
+			"type": "shell",
+			"command": "bundle exec jekyll serve",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			},
+			"problemMatcher": []
+		}
+	]
+}

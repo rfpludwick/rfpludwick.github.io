@@ -5,6 +5,10 @@
 	"forwardPorts": [
 		4000
 	],
+	"remoteEnv": {
+		"GEM_HOME": "/root/gems",
+		"JEKYLL_GITHUB_TOKEN": "${localEnv:JEKYLL_GITHUB_TOKEN}"
+	},
 	"extensions": [
 		"github.vscode-pull-request-github",
 		"eamodio.gitlens",
