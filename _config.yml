@@ -5,5 +5,5 @@ description: >-
 url: "https://rfpludwick.github.io"
 github_username: rfpludwick
 markdown: kramdown
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-slate
 timezone: America/Los_Angeles
