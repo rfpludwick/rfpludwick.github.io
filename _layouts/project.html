@@ -1,0 +1,24 @@
+---
+layout: navigation
+---
+
+<u>Project</u>
+
+{{ content }}
+
+<section class="collection_navigation">
+    {% if page.previous %}
+    <div class="left">
+      <a href="{{ page.previous.url }}" title="Previous Project: {{ page.previous.title }}">
+        <h6>&laquo; Previous Project: {{ page.previous.title }}</h6>
+      </a>
+    </div>
+    {% endif %} {% if page.next %}
+    <div class="right">
+      <a href="{{ page.next.url }}" title="Next Project: {{ page.next.title }}">
+        <h6>Next Project: {{ page.next.title }} &raquo;</h6>
+      </a>
+    </div>
+    {% endif %}
+    <div class="clear"></div>
+</section>

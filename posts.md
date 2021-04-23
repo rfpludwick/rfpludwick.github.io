@@ -1,14 +1,21 @@
 ---
 title: Posts
+layout: navigation
 ---
 
-# Posts
-
 <!-- I dislike not being able to put proper line breaks in this for loop -->
-{% for post in site.posts %}- [{{ post.title }}]({{ post.url }}), _{{ post.date | date: "%B %-d, %Y" }}_
+{% for post in site.posts %}* [{{ post.title }}]({{ post.url }}), _{{ post.date | date: "%B %-d, %Y" }}_
 {% endfor %}
 
-### Navigation
+## By Category
 
-- [Homepage](/)
-- [Projects](/projects)
+<!-- I dislike not being able to put proper line breaks in this for loop -->
+{% for category in site.categories %}
+{% capture category_name %}{{ category | first }}{% endcapture %}
+
+### {{ category_name }}
+
+{% for post in site.categories[category_name] %}* [{{ post.title }}]({{ post.url }}), _{{ post.date | date: "%B %-d, %Y" }}_
+{% endfor %}
+
+{% endfor %}

@@ -1,9 +1,29 @@
 title: Robert F.P. Ludwick
 email: robert@ludwick.us
 description: >-
-  Welcome to my (sub)domain.
+  My home on the Internet for technology, leadership, and other silliness.
 url: "https://rfpludwick.github.io"
 github_username: rfpludwick
 markdown: kramdown
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-slate
 timezone: America/Los_Angeles
+permalink: /:year/:month/:day/:title
+sass:
+  style: compressed
+styles:
+  - custom
+exclude:
+  - Gemfile*
+  - LICENSE
+  - README.md
+  - TODO.md
+collections:
+  navigation_site:
+    relative_directory: _navigation_site
+  navigation_social:
+    relative_directory: _navigation_social
+  projects:
+    label: Projects
+    relative_directory: _projects
+    output: true
+    permalink: /:collection/:title
