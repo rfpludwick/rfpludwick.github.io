@@ -7,6 +7,6 @@
 
 ## Usage
 
-```bash
+```shell
 git clone https://github.com/rfpludwick/rfpludwick.github.io
 ```
