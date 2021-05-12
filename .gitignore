@@ -1,4 +1,4 @@
 .devcontainer/*-local.sh
-.devcontainer/.bash-config/*personal
+.devcontainer/.shell-config/*personal
 _drafts/
 _site/

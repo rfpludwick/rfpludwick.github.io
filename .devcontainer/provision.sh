@@ -2,7 +2,7 @@
 
 set -e
 
-cp .devcontainer/.bash-config/.bash_exports_local ~/.bash_exports_local
+cp .devcontainer/.shell-config/bash/.bash_exports_local ~/.bash_exports_local
 # shellcheck disable=SC1090
 . ~/.bash_exports_local
 apt update
