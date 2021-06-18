@@ -1,14 +1,7 @@
 {
-	"image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-20.04",
+	"image": "${localEnv:RFPLUDWICK_NEXUS_HOSTNAME}/vscode/base:latest",
 	"postCreateCommand": "bash .devcontainer/provision.sh",
 	"initializeCommand": "bash .devcontainer/initialize.sh",
-	"forwardPorts": [
-		4000
-	],
-	"remoteEnv": {
-		"GEM_HOME": "/root/gems",
-		"JEKYLL_GITHUB_TOKEN": "${localEnv:JEKYLL_GITHUB_TOKEN}"
-	},
 	"extensions": [
 		"github.vscode-pull-request-github",
 		"eamodio.gitlens",
@@ -16,5 +9,14 @@
 		"davidanson.vscode-markdownlint",
 		"rebornix.ruby",
 		"ginfuru.ginfuru-vscode-jekyll-syntax"
-	]
+	],
+	"forwardPorts": [
+		4000
+	],
+	"remoteEnv": {
+		"TZ": "America/Los_Angeles",
+		"GEM_HOME": "/root/.gems",
+		"PATH": "${containerEnv:PATH}:/root/.gems/bin",
+		"JEKYLL_GITHUB_TOKEN": "${localEnv:JEKYLL_GITHUB_TOKEN}"
+	}
 }

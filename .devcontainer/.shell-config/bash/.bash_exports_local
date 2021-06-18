@@ -1,5 +1,0 @@
-export PATH="${HOME}/gems/bin:${PATH}"
-
-if [ -f ~/.bash_exports_local_personal ]; then
-    . ~/.bash_exports_local_personal
-fi

@@ -1,19 +1,21 @@
+---
+
 title: Robert F.P. Ludwick
-email: robert@ludwick.us
+email: "robert@ludwick.us"
 description: >-
   My home on the Internet for technology, leadership, and other silliness.
 url: "https://rfpludwick.github.io"
 github_username: rfpludwick
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: "jekyll-theme-slate"
 timezone: America/Los_Angeles
-permalink: /:year/:month/:day/:title
+permalink: "/:year/:month/:day/:title"
 sass:
   style: compressed
 styles:
   - custom
 exclude:
-  - Gemfile*
+  - "Gemfile*"
   - LICENSE
   - README.md
   - TODO.md
@@ -26,4 +28,4 @@ collections:
     label: Projects
     relative_directory: _projects
     output: true
-    permalink: /:collection/:title
+    permalink: "/:collection/:title"
