@@ -1,3 +1,6 @@
 {
-	"window.title": "${activeEditorMedium}${dirty}${separator}rfpludwick.github.io${separator}${appName}"
+	"window.title": "${activeEditorMedium}${dirty}${separator}rfpludwick.github.io${separator}${appName}",
+	"cSpell.words": [
+		"sitewide"
+	]
 }
