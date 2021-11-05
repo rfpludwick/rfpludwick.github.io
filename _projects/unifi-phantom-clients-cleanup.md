@@ -14,5 +14,9 @@ Controller which have no inbound/outbound traffic, nor any customized name, and
 removes it from the Controller. This helped me reduce the number of clients I
 saw at the time, 500+, down to to something like 80.
 
+Please note that this does not appear to work with versions of the UniFi
+Controller 6.2 or older, possibly even 6.1 or older. They removed a key API call
+for some inexplicable reason - the call to forget a client from the network.
+
 - Repository is at
 [https://github.com/rfpludwick/unifi-phantom-clients-cleanup](https://github.com/rfpludwick/unifi-phantom-clients-cleanup)
