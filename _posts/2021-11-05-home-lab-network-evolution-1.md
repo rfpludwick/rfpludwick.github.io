@@ -1,7 +1,7 @@
 ---
 title: Home Lab & Network Evolution, Part 1
 layout: post
-date: 2021-11-04
+date: 2021-11-05
 categories:
   - network
   - infrastructure
