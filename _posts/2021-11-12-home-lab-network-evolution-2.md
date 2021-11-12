@@ -12,7 +12,7 @@ categories:
 ## As Seen Previously On This Blog
 
 Make sure to read
-[Part 1]({% link _posts/2021-11-05-home-lab-network-evolution-1.md %})!
+[Part 1]({% post_url 2021-11-05-home-lab-network-evolution-1.md %})!
 
 ## Downsizing & Reboot
 
