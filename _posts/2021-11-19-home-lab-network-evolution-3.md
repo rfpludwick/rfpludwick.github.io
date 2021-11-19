@@ -1,5 +1,5 @@
 ---
-title: Network & Home Lab Evolution, Part 3
+title: Home Lab & Network Evolution, Part 3
 layout: post
 date: 2021-11-19
 categories:
@@ -13,8 +13,8 @@ categories:
 
 Make sure to read the previous posts in this series:
 
-* [Part 1]({% post_url 2021-11-05-home-lab-network-evolution-1.md %})
-* [Part 2]({% post_url 2021-11-12-home-lab-network-evolution-2.md %})
+* [Part 1]({% post_url 2021-11-05-home-lab-network-evolution-1 %})
+* [Part 2]({% post_url 2021-11-12-home-lab-network-evolution-2 %})
 
 ## Smart Home Beginnings
 
