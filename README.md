@@ -4,7 +4,8 @@
 # About
 
 **rfpludwick.github.io** is my personal GitHub Pages site. It's nothing
-spectacular, really. Seriously.
+spectacular, really. Seriously. Available at
+[https://pages.ludwick.us](https://pages.ludwick.us)
 
 ## Usage
 
