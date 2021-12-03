@@ -1,6 +1,19 @@
 {
-	"window.title": "${activeEditorMedium}${dirty}${separator}rfpludwick.github.io${separator}${appName}",
+	"window.title": "${activeEditorMedium}${dirty}${separator}GitHub Pages Site${separator}${appName}",
 	"cSpell.words": [
-		"sitewide"
+		"Bravia",
+		"Chromecast",
+		"DDNS",
+		"IFTTT",
+		"Kasa",
+		"NANOHD",
+		"Netgear",
+		"Onhub",
+		"Prosumer",
+		"Raxxess",
+		"Roamio",
+		"sitewide",
+		"TMNT",
+		"Wirecutter"
 	]
 }
