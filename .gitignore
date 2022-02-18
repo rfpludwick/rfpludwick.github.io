@@ -1,3 +1,4 @@
 .devcontainer/*-local.sh
+.DS_Store
 _drafts/
 _site/

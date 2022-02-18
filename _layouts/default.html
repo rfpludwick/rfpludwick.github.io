@@ -10,13 +10,13 @@
     <!-- Modified from source - Start -->
     {% if site.styles %}
       {% for style in site.styles %}
-        <link rel="stylesheet" type="text/css" media="screen" href="{{ '/css/' | append: style | append: '.css?v=' | append: site.github.build_revision | relative_url }}">
+        <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/' | append: style | append: '.css?v=' | append: site.github.build_revision | relative_url }}">
       {% endfor %}
     {% endif %}
 
     {% if page.styles %}
       {% for style in page.styles %}
-        <link rel="stylesheet" type="text/css" media="screen" href="{{ '/css/' | append: style | append: '.css?v=' | append: site.github.build_revision | relative_url }}">
+        <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/' | append: style | append: '.css?v=' | append: site.github.build_revision | relative_url }}">
       {% endfor %}
     {% endif %}
     <!-- Modified from source - End -->
