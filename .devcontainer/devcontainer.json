@@ -9,6 +9,7 @@
 		"eamodio.gitlens",
 		"timonwong.shellcheck",
 		"davidanson.vscode-markdownlint",
+		"redhat.vscode-yaml",
 		"rebornix.ruby",
 		"ginfuru.ginfuru-vscode-jekyll-syntax"
 	],
