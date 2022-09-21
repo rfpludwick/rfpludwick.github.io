@@ -37,7 +37,8 @@ addressed the UTI with medication and got past it, but her health didn't
 recover. I took her to the vet this morning and we were informed that her
 breathing had become labored, and that she was substantially dehydrated.
 
-The labored breathing information just did me in. That was when I knew it was time.
+The labored breathing information just did me in. That was when I knew it was
+time.
 
 ![Sam lazing in the sun](/assets/images/2022-02-18-samantha-farewell/1.jpg)
 
