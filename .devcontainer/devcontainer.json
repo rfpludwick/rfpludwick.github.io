@@ -18,8 +18,8 @@
 	],
 	"remoteEnv": {
 		"TZ": "America/Los_Angeles",
-		"GEM_HOME": "/root/.gems",
-		"PATH": "${containerEnv:PATH}:/root/.gems/bin",
+		"GEM_HOME": "/home/vscode/.gems",
+		"PATH": "${containerEnv:PATH}:/home/vscode/.gems/bin",
 		"JEKYLL_GITHUB_TOKEN": "${localEnv:JEKYLL_GITHUB_TOKEN}"
 	}
 }
