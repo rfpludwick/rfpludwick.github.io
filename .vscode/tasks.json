@@ -45,27 +45,7 @@
 			]
 		},
 		{
-			"label": "Jekyll serve",
-			"type": "shell",
-			"command": "bundle exec jekyll serve",
-			"presentation": {
-				"reveal": "always",
-				"panel": "new"
-			},
-			"problemMatcher": []
-		},
-		{
-			"label": "Jekyll serve w/drafts",
-			"type": "shell",
-			"command": "bundle exec jekyll serve --drafts",
-			"presentation": {
-				"reveal": "always",
-				"panel": "new"
-			},
-			"problemMatcher": []
-		},
-		{
-			"label": "Jekyll serve w/Live Reload",
+			"label": "Jekyll serve standard",
 			"type": "shell",
 			"command": "bundle exec jekyll serve --livereload",
 			"presentation": {
@@ -75,9 +55,9 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Jekyll serve w/drafts & Live Reload",
+			"label": "Jekyll serve drafts",
 			"type": "shell",
-			"command": "bundle exec jekyll serve --drafts --livereload",
+			"command": "bundle exec jekyll serve --drafts --livereload --future",
 			"presentation": {
 				"reveal": "always",
 				"panel": "new"
