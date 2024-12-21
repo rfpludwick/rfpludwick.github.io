@@ -9,7 +9,7 @@
 		"timonwong.shellcheck",
 		"davidanson.vscode-markdownlint",
 		"redhat.vscode-yaml",
-		"rebornix.ruby",
+		"shopify.ruby-lsp",
 		"ginfuru.ginfuru-vscode-jekyll-syntax",
 		"znck.grammarly",
 		"mrmlnc.vscode-json5"
