@@ -85,8 +85,8 @@ phantom clients cleanup script, and the Let's Encrypt service onto one single
 I then introduced a variety of VSCode tasks to be able to very easily run things
 like software upgrades on my hardware and software. Unfortunately, I cannot
 show those to you as they're all in my infrastructure repository. All of this
-happened in pretty quick order at the end of 2020 and into the first half of
-2021. Pandemic, am I right?
+happened in pretty quick order at the end of 2020 and into the first half of 2021.
+Pandemic, am I right?
 
 ## UniFi Dream Machine Pro To The Future
 
